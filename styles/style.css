@@ -28,10 +28,10 @@ body{
     height: 582px;
 }
 .img-developer{
-    margin-top: 200px;
+    margin-top: 100px;
 }
 .img-developer img{
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .banner-caption{
@@ -39,7 +39,7 @@ color: rgb(13, 19, 33);
 font-size: 48px;
 font-weight: 800;
 text-align: center;
-margin-top: 70px;
+margin-top: 40px;
 line-height: 68px;
 }
 .banner-description{
@@ -48,18 +48,133 @@ font-size: 16px;
 font-weight: 400;
 line-height: 30px;
 text-align: center;
-margin-top: 70px;
+margin-top: 40px;
 
 }
 .btn-banner{
 color: rgb(255, 255, 255);
 font-size: 20px;
 font-weight: 600;
-width: 208px;
+width: 308px;
 height: 66px;
 border-radius: 8px;
 background: rgb(13, 19, 33);
-margin-top: 70px;
+margin-top: 40px;
 padding: 21px 24px 21px 24px;
 cursor: pointer;
 }
+
+        /* Q&A */
+#QA-section{
+width: 1140px;
+height: 1395px;
+margin: 0 auto;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.02);
+margin-top: 80px;
+}
+.QA-content{
+
+}
+
+.QA-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    padding: 30px;
+}
+.QA-description{
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+opacity: 0.7;
+}
+
+.help-box1-content, .help-box3-content{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 30%;
+border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+margin: 50px;
+}
+
+.help-box-subject h1{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    margin-top: 30px;
+    padding-left: 30px;
+}
+.help-box-subject p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+.help-box-btn{
+color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+text-align: center;
+box-sizing: border-box;
+margin: 32px 30px;
+padding: 12px 20px 12px 20px;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+cursor: pointer;
+}
+.help-box1-img, .help-box3-img{
+    width: 80%;
+    margin-top: 30px;
+    
+}
+
+.help-box2-content{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin: 30px 10px 30px 150px;
+    }
+.help-box2-subject{
+    width: 477px;
+      margin-right: 50px;
+    }
+    .help-box2-subject h1{
+        color: rgba(13, 19, 33, 0.7);
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        text-align: left;
+        margin-top: 30px;
+    }
+    .help-box2-subject p{
+        color: rgb(13, 19, 33);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .help-box2-img{width: 240px;
+height: 240px;}
+    .help-box2-img img{
+        
+        width: 100%;
+    margin-top: 30px;
+    }
