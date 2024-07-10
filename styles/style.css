@@ -9,7 +9,7 @@ body{
     font-family: "Azeret Mono", monospace;
 }
 
-                    /* banner */
+     /* banner */
 
 #banner-section{
     width: 100%;
@@ -33,7 +33,6 @@ body{
 .img-developer img{
     margin-top: 100px;
 }
-
 .banner-caption{
 color: rgb(13, 19, 33);
 font-size: 48px;
@@ -65,6 +64,7 @@ cursor: pointer;
 }
 
         /* Q&A */
+
 #QA-section{
 width: 1140px;
 height: 1395px;
@@ -89,7 +89,6 @@ line-height: 26px;
 text-align: center;
 opacity: 0.7;
 }
-
 .help-box1-content, .help-box3-content{
 display: flex;
 flex-direction: row;
@@ -154,7 +153,7 @@ cursor: pointer;
     text-align: left;
     margin-top: 50px;
     }
-    .help-box2-subject p{
+.help-box2-subject p{
         color: rgb(13, 19, 33);
         font-size: 16px;
         font-weight: 400;
@@ -162,12 +161,11 @@ cursor: pointer;
         text-align: left;
         margin-top: 20px;
     }
-
-    .help-box2-img{
+.help-box2-img{
     width: 240px;
-    height: 240px;}
-
-    .help-box2-img img{
+    height: 240px;
+    }
+.help-box2-img img{
     position: absolute;
     right: 65%;
     z-index: 1;
@@ -176,18 +174,18 @@ cursor: pointer;
 
     /* inspiration */
 
-    #inspiration-section{
+#inspiration-section{
         width: 1140px;
         height: 775px;
         margin: 0 auto;
     }
-    .inspiration-content{
+.inspiration-content{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .inspiration-content h1{
+.inspiration-content h1{
         text-align: center;
         font-size: 30px;
         font-weight: 800;
@@ -270,6 +268,14 @@ font-weight: 400;
 text-align: left;
 opacity: 0.7;
 }
+.HTML-card a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    
+        }
 
 .CSS-card{
    
@@ -293,6 +299,14 @@ opacity: 0.7;
     font-weight: 400;
     text-align: left;
     opacity: 0.7;
+    }
+    .CSS-card a{
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+text-align: left;
+
     }
 
     .JS-card{
@@ -318,6 +332,157 @@ opacity: 0.7;
         text-align: left;
         opacity: 0.7;
         }
+        .JS-card a{
+            color: rgb(13, 19, 33);
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 19px;
+            text-align: left;
+            
+                }
+
+    /* next target */
+
+#next-target-section{
+        width: 1140px;
+        height: 866px;
+        margin: 0 auto;
+    }
+.next-target-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 130px;
+    }
+    .next-target-content h1{
+        color: rgb(13, 19, 33);
+        font-size: 32px;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+.next-target-content p{
+width: 1140px;
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+opacity: 0.7;
+    }
+
+
+.reactjs{
+width: 1060px;
+height: 139px;
+padding: 20px;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+gap: 3%;
+margin-top: 30px;
+}
+.reactjs-img{
+    width: 94.78px;
+    height: 108px;
+}
+.reactjs-img img{
+    width: 100%;
+    margin: 0 auto;
+}
+.reactjs-description h3{
+    margin-bottom: 10px;
+}
+.reactjs-description p{
+width: 941.22px;
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+margin-bottom: 20px;
+}
+.reactjs-description a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    }
+.nodejs{
+width: 1060px;
+height: 139px;
+padding: 20px;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+display: flex;
+flex-direction: row;
+gap: 3%;
+justify-content: flex-start;
+margin-top: 30px;
+}
+.nodejs-img{
+    width: 94.78px;
+    height: 108px;
+}
+.nodejs-img img{
+    width: 100%;
+    margin: 0 auto;
+}
+.nodejs-description h3{
+    margin-bottom: 20px;
+}
+.nodejs-description p{
+    width: 941.22px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.nodejs-description a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    }
+.mongodb{
+width: 1060px;
+height: 139px;
+padding: 20px;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+display: flex;
+flex-direction: row;
+gap: 3%;
+justify-content: flex-start;
+margin-top: 30px;
+}
+.mongodb-img{
+    width: 94.78px;
+    height: 108px;
+}
+.mongodb-img img{
+    width: 100%;
+    margin: 0 auto;
+}
+.mongodb-description h3{
+    margin-bottom: 10px;
+}
+.mongodb-description p{
+    width: 941.22px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.mongodb-description a{
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 700;
+}
 
         /* support */
 
@@ -325,7 +490,7 @@ opacity: 0.7;
 width: 1140px;
 height: 313px;
 margin: 0 auto;
-margin-top: 200px;
+margin-top: 80px;
 background-image:linear-gradient(180.00deg, rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2) 100%), url("../images/handshake.jpg");
 background-repeat: no-repeat;
 background-size: cover;
