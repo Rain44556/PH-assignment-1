@@ -211,3 +211,112 @@ border: 1px solid rgba(13, 19, 33, 0.2);
 border-radius: 16px;
 padding: 20px;
 }
+
+/* current target */
+
+#current-target-section{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+}
+.current-target-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+.current-target-content h1{
+        font-size: 30px;
+        font-weight: 800;
+        margin-bottom: 30px;
+        text-align: center;
+        color: rgb(13, 19, 33);
+    }
+.current-target-content p{
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 50px;
+opacity: 0.7;
+color: rgb(13, 19, 33);
+text-align: center;
+    }
+.current-target-card{
+    width: 1140px;
+    height: 299px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3%;
+}
+.HTML-card{
+
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+padding: 40px;
+}
+.HTML-card img{
+    margin-top: 20px;
+}
+.HTML-card h2{
+color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 800;
+text-align: left;
+margin-top: 10px;
+}
+.HTML-card p{
+color: rgb(13, 19, 33);
+margin-top: 10px;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+opacity: 0.7;
+}
+
+.CSS-card{
+   
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+    }
+    .CSS-card img{
+        margin-top: 20px;
+    }
+    .CSS-card h2{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+    }
+    .CSS-card p{
+    color: rgb(13, 19, 33);
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    opacity: 0.7;
+    }
+
+    .JS-card{
+        border-radius: 16px;
+        background: rgba(255, 223, 0, 0.05);
+        padding: 40px;
+        }
+        .JS-card img{
+            margin-top: 20px;
+        }
+        .JS-card h2{
+        color: rgb(13, 19, 33);;
+        font-size: 24px;
+        font-weight: 800;
+        text-align: left;
+        margin-top: 20px;
+        }
+        .JS-card p{
+        color: rgb(13, 19, 33);
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: left;
+        opacity: 0.7;
+        }
